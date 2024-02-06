@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dates {
+    padding-left: 5px;
+    display: flex;
+    width: 20%;
+    color: black;
+}
+.newTask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5px;
+}
+.newTask button {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1em;
+    color: #8a449b;
+    border: unset;
+    background-color: unset;
+}
+
+.tasks {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+.tasks #todoTitle {
+    margin-bottom: 15px;
+    color: #8a449b;
+}
+
+.task {
+    border-radius: 10px;
+    background-color: brown;
+    margin: 5px;
+    padding: 10px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.checklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
